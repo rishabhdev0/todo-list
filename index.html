@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO APP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="stats-container">
+      <div class="details">
+        <h1>TODO-APP</h1>
+        <p>Keep it Up!</p>
+        <div id="progressBar">
+          <div id="progress"></div>
+        </div>
+      </div>
+      <div class="stats-numbers">
+        <p id="numbers">0/0</p>
+      </div>
+    </div>
+    
+    <!-- Form to add tasks -->
+    <form action="">
+      <input type="text" id="taskInput" placeholder="Write your task">
+      <button id="newTask" type="submit">+</button>
+    </form>
+    
+    <!-- Task list -->
+    <ul id="task-list"></ul>
+
+    <!-- Nice job message (displayed when all tasks are completed) -->
+    <div id="message" style="font-size: 20px; color: #24feee; font-weight: bold; margin-top: 20px;"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
